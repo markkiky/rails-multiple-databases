@@ -1,0 +1,24 @@
+development:
+  primary: 
+    database: my_primary_database
+    user: mark
+    password: hotspot.com
+    adapter: mysql2
+  primary_replica: 
+    database: my_primary_database
+    user: mark
+    password: hotspot.com
+    adapter: mysql2
+    replica: true
+  animals: 
+    database: my_animals_database
+    username: mark
+    password: hotspot.com
+    adapter: mysql2
+    migrations_paths: db/animals_migrate
+  animals_replica: 
+    database: my_animals_database
+    user: mark
+    password: hotspot.com
+    adapter: mysql2
+    replica: true
